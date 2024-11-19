@@ -1,0 +1,84 @@
+html body {
+    margin: 0px;
+    /* background-color: #141d2b; */
+    /* background-color: #141d2b; */
+    color: #a4b1cd;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none; 
+    color: #A4B1CD;
+}
+
+.navbar {
+    display: -webkit-flex;
+    display: flex;
+    flex: 1;
+    height: 54px;
+    color: #fff;
+    /* background-color: #111927; */
+    /* border-bottom: 1px solid #fff; */
+}
+
+.nav-menu {
+    display: -webkit-flex;
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.copyright a,
+span {
+    padding-right: 16px;
+}
+
+.table{
+    width: 100%;
+}
+.table th {
+    height: 40px;
+    line-height: 40px;
+}
+
+.table td {
+    height: 50px;
+    line-height: 50px;
+    border-style: none;
+}
+
+.table td a {
+    color: #9fef00;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-top: solid 1px #2A323F;
+    border-bottom: none;
+    line-height: 50px;
+}
