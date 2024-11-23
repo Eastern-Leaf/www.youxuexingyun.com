@@ -34,8 +34,9 @@
             }
 
             #container{
-                width: 1895px;
-                height: 800px;
+                position: relative;
+                width: 100%;
+                height: 100vh;
                 border: 1px soild #999;
             }
         </style>
@@ -76,7 +77,10 @@
             </div>
         </nav>
 
-        <div id="container"></div>
+        <div style="width: 100%;height: 100vh;">
+            <div id="container"></div>
+        </div>
+        
         <script>
             var map = new BMapGL.Map("container");
             var point = new BMapGL.Point(116.404, 39.915);
